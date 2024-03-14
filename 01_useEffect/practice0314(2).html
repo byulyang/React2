@@ -1,0 +1,35 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"> </script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+     alert("안녕하세요!")
+		var name = prompt("이름을 입력하세요")
+		var age = parseInt(prompt("나이를 입력하세요"))
+		// prompt는 문자열만 받아옴
+		var ret = confirm("링크를 표시하겠습니까?")
+		console.log(`이름은 ${name} 나이는 ${age} 입니다.`)
+		console.log(`이름은 %s 나이는 %i 입니다.`, name, age)
+
+		var p={x:1, y:2}
+		console.dir(p)
+		//객체의 프로퍼티 나열
+
+		console.time("elapsed_time")
+		alert("확인 버튼을 누르세요")
+		console.timeEnd("elapsed_time")
+		// 시작시간, 종료시간으로 경과시간 구하는 메서드
+		// 인수 : 타이머이름
+		// 단위 : ms
+
+
+    </script>
+    
+</body>
+</html>
